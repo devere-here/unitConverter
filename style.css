@@ -1,17 +1,27 @@
 body{
-  background-color: #94618E;
+  background-image: url("physicsImage1.png");
+  background-size:  cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+h1{
+  font-size: 40px;
 }
 
 #container{
   text-align: center;
-  background-color: white;
-  border: 5px solid black;
+  border: 10px red solid;
   width: 70%;
   min-width: 600px;
-  height: 70%;
-  max-height: 300px;
+  height: 350px;
   margin: 5% auto 5% auto;
-  background-color: #F4DECB;
+  background-color: white;
+  color: red;
+  text-shadow: 1px 1px black;
+
+
 }
 #titleContainer{
   width: 50%;
@@ -28,6 +38,8 @@ input{
 #equalSign{
   width: 10%;
   margin: 3px 7px 3px 7px;
+  color: black;
+  text-shadow: 0px 0px;
   
 }
 #container2{
@@ -53,8 +65,9 @@ input{
   display: block;
 }
 input{
-  border: 2px solid;
+  border: 2px solid black;
   margin: 3px;
   width: 90%;
 }
+
 
