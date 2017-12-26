@@ -1,0 +1,78 @@
+<head>
+  <link rel="stylesheet" href= "style.css"></link>
+</head>
+
+
+<div id="container">
+  
+  <div id="titleContainer">
+    <h1>Unit Converter</h1>
+  </div>
+  
+  <div id="container2">
+    
+    <h3>What would you like to convert?</h3>
+    
+    <select name="units" id="unitType">
+      <option value="length">Length</option>
+      <option value="mass">Mass</option>
+      <option value="speed">Speed</option>
+      <option value="temperature">Temperature</option>
+      <option value="time">Time</option>
+    </select>
+  </div>
+  
+  <div id="container3">
+    
+    <div id="container4">
+      <div class="valueContainer">
+
+        <input type="text" id="value1"></input>
+
+        <div id="units1" class="unitSelect">
+
+          <select name="length" id="select1" class="selectBox">
+            <option value="meters">Meters</option>
+            <option value="feet">Feet</option>
+            <option value="miles">Miles</option>
+            <option value="inches">Inches</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="millimeters">Millimeters</option>
+            <option value="micrometers">Micrometers</option>
+            <option value="nanometers">Nanometers</option>
+            <option value="centimeters">Centimeters</option>
+          </select>
+
+        </div>
+
+      </div>
+  
+      <span class="valueContainer" id="equalSign">=</span>
+  
+      <div class="valueContainer">
+    
+        <input type="text" id="value2"></input>
+
+        <div id="units2" class="unitSelect">
+
+          <select name="length" id="select2" class="selectBox">
+            <option value="meters">Meters</option>
+            <option value="feet">Feet</option>
+            <option value="miles">Miles</option>
+            <option value="inches">Inch</option>
+            <option value="kilometers">Kilometers</option>
+            <option value="millimeters">Millimeters</option>
+            <option value="micrometers">Micrometers</option>
+            <option value="nanometers">Nanometers</option>
+            <option value="centimeters">Centimeters</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="actions.js"></script>
+
